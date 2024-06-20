@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#new-todo {
+  width: 300px;
+  padding: 10px;
+}
+
+#add-todo {
+  padding: 10px;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+#todo-list li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
